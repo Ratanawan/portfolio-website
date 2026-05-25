@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Ratanawan',
+  title: 'Ratanawan Thepanom',
   description: "Ratanawan's personal portfolio website",
+  icons: {
+    icon: '/WanLogo.png',
+    apple: '/WanLogo.png',
+  },
 }
 
 export default function RootLayout({
